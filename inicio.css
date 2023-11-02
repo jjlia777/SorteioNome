@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+img {
+    width: 190px;
+}
+.img {
+    text-align: center;
+}
+.tudo {
+    margin: 70px 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+body {
+    background-image: url(img/parque.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1 {
+    font: 600 53px 'Poppins', sans-serif;
+    color: white;
+    margin-top: 15px;
+}
+span {
+    color:rgb(255, 230, 0) ;
+    font-weight: 600;
+}
+p {
+    color: white;
+    font: 400 20px 'Poppins', sans-serif;
+    background-color: rgba(255, 0, 0, 0.733);
+    border-radius: 5px;
+    width: 410px;
+    margin-left: 180px;
+    margin-top: 7px;
+    margin-bottom: 30px;
+}
+.bts {
+    margin-left: 25px;
+}
+button{
+    margin-right: 25px;
+}
+.button {
+    width: 240px;
+    color: #ecf0f1;
+    font: 550 30px 'Poppins', sans-serif;
+    background-color: #FFB014;
+    border: 1px solid #f39c12;
+    border-radius: 10px;
+    padding: 10px;
+    text-shadow: 0px 4px 4px #00000080;
+    box-shadow: 0px 6px 0px #c76b03;
+    transition: all .1s;
+    cursor: pointer;
+   }
+   
+.button:active {
+    box-shadow: 0px 2px 0px #d35400;
+    position: relative;
+    top: 2px;
+    cursor: pointer;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="number.css">
+</head>
+<body>
+    <div class="tudo">
+        <div class="sorteio">
+            <div class="img">
+                <a href="inicio.html"><img src="img/logo.png" alt="" class="logo"></a>
+            </div>
+            <h1>SORTEIO<span class="de">DE</span><span class="name">NÚMEROS</span></h1>
+            <div class="entradas">
+                <label class="text" for="entradaminmax">Adicione o número mínimo e máximo que será sorteado!</label>
+                <div class="entrada">
+                    <label for="max">MÁX:</label>
+                    <input type="number" id="max" name="max">
+                </div>
+                <div class="entrada">
+                    <label for="min">MÍN:</label>
+                    <input type="number" id="min" name="min">
+                </div>
+            </div>
+                <button id="sortear">Sortear</button>
+            </div>
+            <p class="resu">RESULTADO:</p>
+            <div id="resultado">
+                <p></p>
+            </div>
+        </div>
+    </div>
+    <script src="number.js"></script>
+</body>
+</html>
