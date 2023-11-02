@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+img {
+    width: 120px;
+}
+.img {
+    text-align: left;
+}
+.tudo {
+    margin: 40px 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+body {
+    background-image: url(img/parque2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.formulario {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    font: 800 60px 'Poppins', sans-serif;
+    color: white;
+    margin-top: -120px;
+    margin-bottom: 20px;
+}
+.de {
+    font-size: 30px;
+}
+.name {
+    color: rgb(255, 208, 0);
+}
+label {
+    font: 400 28px 'Poppins', sans-serif;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.733);
+    width: 500px;
+    margin-left: 28%;
+    margin-bottom: 30px;
+}
+textarea {
+    font: 400 15px 'Poppins', sans-serif;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 400px;
+    height: 130px;
+    resize: none;
+    margin-left: 30.5%;
+    margin-bottom: 30px;
+}
+.sortear {
+    width: 230px;
+    color: #ecf0f1;
+    font: 550 25px 'Poppins', sans-serif;
+    background-color: #FFB014;
+    border: 1px solid #f39c12;
+    border-radius: 30px;
+    padding: 10px;
+    text-shadow: 0px 4px 4px #00000080;
+    box-shadow: 0px 6px 0px #c76b03;
+    transition: all .1s;
+    cursor: pointer;
+    margin-left: 39.7%;
+   }
+   
+.sortear:active {
+    box-shadow: 0px 2px 0px #d35400;
+    position: relative;
+    top: 2px;
+    cursor: pointer;
+}
+.resu {
+    margin-top: 20px;
+    font: 600 20px 'Poppins', sans-serif;
+    color: white;
+}
+.resultado p {
+    margin-left: 28.5%;
+    height: 50px;
+    width: 500px;
+    padding: 5px 0;
+    background-color: blue;
+    border-radius: 10px;
+    margin-top: 15px;
+    font: 600 45px 'Poppins', sans-serif;
+    color: white;
+}
